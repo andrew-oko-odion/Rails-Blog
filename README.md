@@ -1,24 +1,38 @@
 # README
+  This is a simple Rails Blog performing simple CRUD Actions.
+  It uses the bootstrap for frontend and Rspec for test.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  `Classic-blog` uses yarn for asset management
 
-Things you may want to cover:
+* Runing The App.
 
-* Ruby version
+** clone the project using
 
-* System dependencies
+   First Clone the Project using the command below.
+   
+   `git clone git@github.com:andrew-oko-odion/classic-blog.git`
 
-* Configuration
+   Fetch dependecy Gems
+   
+   run `bundle`
 
-* Database creation
+   Frontend dependency
 
-* Database initialization
+   yarn install
 
-* How to run the test suite
+   Run Migration
+   
+   run	`rails db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
+   Run Application using
+   
+   run 	`rails server` 
 
-* Deployment instructions
+   and in another shell run
 
-* ...
+   `./bin/webpacker-dev-sever `
+
+#TODO
+  The Goal is eventually support plugins for its template layout.
+* Add Authentification support
+* Add Tests. 
