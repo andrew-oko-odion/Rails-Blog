@@ -1,2 +1,17 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<div class="container">
+    <div class="row">
+	<div class="col-xs-8">
+	<% @posts.each do |post| %>
+	    <h3>  <%= link_to post.title, post_path(post.id) %> </h3>
+	    <p> <%=  (post.body).truncate_words(20) %> </p>
+	<% end %>
+	</div>
+
+	<div class="col-xs-4">
+	    <h2> Recent Blog Articles </h2>
+	    <% @posts.each do |post| %>
+		<h4>  <%= link_to post.title, post_path(post.id) %> </h4> Posted <%= post.created_at %>
+	    <% end %>
+	</div>
+    </div>
+</div>
