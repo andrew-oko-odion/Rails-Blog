@@ -36,7 +36,6 @@
 
    `./bin/webpacker-dev-sever `
 
- TODO
   The Goal is eventually support layout template as plugins.
 * Add Authentification support
 * Add Tests. 
