@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'rails-controller-testing'
+
 # Use for Authentication
 gem 'devise'
 # Use for node package management for frontend
