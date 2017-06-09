@@ -37,8 +37,8 @@ class PostsController < ApplicationController
     respond_to do |format|
       if post 
         format.html {redirect_to @post, notice: 'Updated Post Successfully' }
-        format.js
         format.json { render json: @post, status: :ok }                                 
+        format.js
       else
         format.html {redirect_to :edit, notice: post.errors }
         format.json { render json: 'Could not update at this time' }
