@@ -1,12 +1,16 @@
 # README
-  This is a simple Rails Blog performing simple CRUD Actions.
-  It uses the bootstrap for frontend and Rspec for test.
+  Classic Rails Blog performing simple CRUD Actions.
+  It uses the following
+  
+  bootstrap
+  Rspec
+  Node modules 
 
-  `Classic-blog` uses yarn for asset management
+ `Classic-blog` uses yarn for asset management
 
-* Runing The App.
+* To Run The App do the following.
 
-** clone the project using
+** Clone the project
 
    First Clone the Project using the command below.
    
@@ -32,7 +36,7 @@
 
    `./bin/webpacker-dev-sever `
 
-#TODO
-  The Goal is eventually support plugins for its template layout.
+ TODO
+  The Goal is eventually support layout template as plugins.
 * Add Authentification support
 * Add Tests. 

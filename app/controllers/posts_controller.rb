@@ -41,8 +41,9 @@ class PostsController < ApplicationController
         format.json { render json: @post, status: :ok }                                 
       else
         format.html {redirect_to :edit, notice: post.errors }
+        format.json { render json: 'Could not update at this time' }
         format.js
-        format.json { render json: post.errors }
+
       end
     end
   end
