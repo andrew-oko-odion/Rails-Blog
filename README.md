@@ -1,5 +1,6 @@
-# README
+# Classic Rails Blog
 [![Code Climate](https://codeclimate.com/github/andrew-oko-odion/classic-blog/badges/gpa.svg)](https://codeclimate.com/github/andrew-oko-odion/classic-blog)
+
   Classic Rails Blog performing simple CRUD Actions.
   It uses the following
   
