@@ -1,0 +1,115 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/niceguy/workspace/rails/classic-blog/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/helpers/posts_helper.rb": [
+        1,
+        null
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/models/post.rb": [
+        null,
+        1,
+        1,
+        null
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/controllers/posts_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/niceguy/workspace/rails/classic-blog/app/jobs/application_job.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1496987554
+  }
+}
